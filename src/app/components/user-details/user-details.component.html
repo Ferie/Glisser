@@ -1,0 +1,31 @@
+<article class="user-details">
+    <header class="user-details__header">
+        <figure class="user-details__user--image__container">
+            <img
+                src="assets/images/placeholder.png"
+                alt="Placeholder image"
+                class="user-details__user--image"
+            >
+        </figure>
+    
+        <h1
+            class="user-details__user--name"
+            (click)="editContent('name')"
+        >
+            {{ name }} {{ surname }}
+        </h1>
+    </header>
+
+    <section class="user-details__content">
+        <h2 class="user-details__user--details__content--title">
+            My bio
+        </h2>
+
+        <div
+            class="user-details__user--description"
+            (click)="editContent('bio')"
+        >
+            {{ bio }}
+        </div>
+    </section>
+</article>

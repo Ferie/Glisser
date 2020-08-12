@@ -1,0 +1,41 @@
+@import '~src/styles.scss';
+
+.user-details {
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__content {
+        padding-left: 16px;
+
+        &--title {
+            font-size: 48px;
+            font-weight: 700;
+        }
+    }
+
+    &__user {
+        &--image {
+            width: 250px;
+
+            &__container {
+                background-color: grey;
+            }
+        }
+
+        &--name {
+            cursor: pointer;
+            font-size: 48px;
+            font-weight: 700;
+            margin-left: 48px;
+        }
+
+        &--description {
+            cursor: pointer;
+            width: 100%;
+        }
+    }
+}
