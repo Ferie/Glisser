@@ -1,1 +1,65 @@
-<p>modal works!</p>
+<!-- <ng-template #content let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title">Modal title</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <p>One fine body&hellip;</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+    </div>
+</ng-template> -->
+
+
+<div
+    class="glisser-modal__close-icon"
+    [mat-dialog-close]
+>
+    X
+</div>
+
+<h2 mat-dialog-title>Edit your details</h2>
+
+<mat-dialog-content [formGroup]="form">
+    <ng-container *ngIf="editForm === 'name'">
+        <mat-form-field>
+            <input
+                matInput
+                placeholder="First name"
+                formControlName="userName"
+            >
+        </mat-form-field>
+    
+        <mat-form-field>
+            <input
+                matInput
+                placeholder="Last Name"
+                formControlName="userSurname"
+            >
+        </mat-form-field>
+    </ng-container>
+
+    <mat-form-field *ngIf="editForm === 'bio'">
+        <textarea
+            matInput
+            rows="10"
+            cols="200"
+            placeholder="Edit your bio"
+            formControlName="userBio"
+        >
+            
+        </textarea>
+    </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <div
+        class="glisser-modal__save-button"
+        (click)="save()"
+    >
+        Ok
+    </div>
+</mat-dialog-actions>

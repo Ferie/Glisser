@@ -1,0 +1,52 @@
+::ng-deep {
+    .glisser-modal {
+        mat-dialog-container {
+            position: relative;
+            background-color: #685f5f;
+            color: white;
+        }
+
+        mat-dialog-actions {
+            justify-content: flex-end;
+        }
+
+        mat-form-field {
+            background-color: #2b2727;
+            color:white;
+            width: 100%;
+        }
+
+        .mat-focused .mat-form-field-label,
+        .mat-form-field-label {
+            color: white;
+        }
+
+        .mat-focused .mat-form-field-underline,
+        .mat-form-field-underline,
+        .mat-focused .mat-form-field-ripple,
+        .mat-form-field-ripple {
+            background-color: white;
+        }
+    }
+}
+
+.glisser-modal {
+    &__close-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: white;
+        cursor: pointer;
+        padding: 16px;
+    }
+
+    &__save-button {
+        background-color: #2b2727;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        padding: 8px 16px;
+        text-align: center;
+        width: 100px;
+    }
+}
