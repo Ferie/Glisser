@@ -1,4 +1,30 @@
-# Glisser
+# Glisser Front End Test
+
+The purpose of this test is to grasp your understanding of client side development by building a rapid front end application (preferably in Angular).
+
+## Objective
+
+![alt text](https://github.com/Ferie/Glisser/blob/master/src/assets/images/CaptureGlis1.PNG "Requirement 1")
+
+- When clicking on the username, the following modal should be displayed
+
+![alt text](https://github.com/Ferie/Glisser/blob/master/src/assets/images/CaptureGlis2.PNG "Requirement 2")
+
+- Similarly, when clicking on the bio
+
+![alt text](https://github.com/Ferie/Glisser/blob/master/src/assets/images/CaptureGlis3.PNG "Requirement 3")
+
+- Both modals should disregard the current edits if pressing the ‘X’ button and save
+current edits if ‘OK’ is pressed.
+- No need to persist the data to any kind of backend/database.
+- You don’t need to implement anything related to the profile picture.
+- You will be evaluated on your ability to build and reuse components.
+- You can provide your answer in any way you prefer (JsFiddle, repo).
+- Please feel free to reach out if you have any questions.
+
+Thank you for participating!
+
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
