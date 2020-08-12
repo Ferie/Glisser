@@ -4,13 +4,10 @@
     &__header {
         display: flex;
         align-items: center;
-        justify-content: center;
         flex-wrap: wrap;
     }
 
     &__content {
-        padding-left: 16px;
-
         &--title {
             font-size: 48px;
             font-weight: 700;
