@@ -11,15 +11,14 @@ import { ModalComponent } from '../modal/modal.component';
 export class UserDetailsComponent {
     public name = 'Riccardo';
     public surname = 'Andreatta';
-    public bio = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare lacinia leo vitae auctor. Aliquam elementum
-    imperdiet leo sed venenatis.Mauris sed nisl condimentum, efficitur quam sit amet, fermentum ex.Aliquam non lacus id
-    tellus auctor ullamcorper quis et ipsum.Praesent mattis tortor in pellentesque tristique.Fusce at mi aliquam, mollis
-eros ac, ornare risus.Etiam eu est nec metus malesuada venenatis a sed quam.Nullam at diam ultrices, imperdiet dui
-eget, consectetur quam.Quisque id porta enim, et tristique neque.Nam tincidunt accumsan nibh non porttitor.Donec
-molestie quam in velit faucibus, in fringilla libero consectetur.Donec suscipit odio eget lectus pulvinar ultricies.
-Nam vestibulum vulputate arcu id imperdiet.Morbi volutpat suscipit velit in placerat.Nunc congue mattis velit, et
-varius nibh placerat a.Praesent et purus tempor mi volutpat consectetur.';
-`;
+    public bio = `I am an experienced and results-driven Technology Leader/Software
+Development Manager with a proven track record in managing and mentoring development teams.
+Adept at introducing innovative technologies to enhance performance and efficiency.
+Skilled in front-end technologies, technical architecture, and agile methodologies.
+
+My early background is in SEO and back-end development, but it switched very quickly into
+front-end development where I spent over a decade working with different companies
+related to diverse industry sectors.`;
 
     constructor(
         private dialog: MatDialog,
